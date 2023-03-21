@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #acc8e5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Righteous", cursive;
+  color: #112a46;
+}
+.container {
+  width: 70%;
+  min-height: 600px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.title {
+  width: fit-content;
+  font-size: 64px;
+  text-transform: uppercase;
+  border-radius: 30px;
+  padding: 20px 40px 20px 0;
+}
+.btnsCategory {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  padding: 15px 0 30px 0;
+}
+.category {
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-weight: bold;
+  border: 1px solid #112a46;
+  background-color: #acc8e5;
+  color: #112a46;
+  cursor: pointer;
+}
+.category:hover {
+  background-color: #112a46;
+  color: #fff;
+  transition: all 1.2s;
+}
+.fact {
+  min-height: 100px;
+  border-radius: 10px;
+  background-color: #d0e0f0;
+  padding: 20px;
+  margin: 0 0 20px 0;
+}
+.btn {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  background-color: #112a46;
+  color: #acc8e5;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: "Righteous", cursive;
+}
+
+@media (max-width: 1024px) {
+  .title {
+    font-size: 46px;
+  }
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 30px;
+    padding: 20px 0 20px 0;
+  }
+  .category {
+    padding: 3px 9px;
+  }
+  .btnsCategory {
+    padding: 15px 0 25px 0;
+  }
+}
+
+@media (max-width: 510px) {
+  .container {
+    width: 100%;
+    padding: 0 15px;
+  }
+  .btn {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 340px) {
+  .title {
+    font-size: 22px;
+  }
+}
