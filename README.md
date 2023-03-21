@@ -3,7 +3,7 @@ Project is:  _complete_
 ## General info
 This app generates facts about Chuck Noriss. 
 
-Live demo 
+Live demo https://beata198.github.io/facts_generator_chuck_noriss/
 
 ## Sources
 Application using JSON API - https://api.chucknorris.io/
